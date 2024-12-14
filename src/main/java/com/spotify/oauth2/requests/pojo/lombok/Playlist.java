@@ -66,17 +66,17 @@ public class Playlist {
 	@JsonProperty("uri")
 	String uri;
 
-	public void set_public(Boolean _public) {
-		this._public = _public;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
+//	public void set_public(Boolean _public) {
+//		this._public = _public;
+//	}
+//
+//	public void setDescription(String description) {
+//		this.description = description;
+//	}
+//
+//	public void setName(String name) {
+//		this.name = name;
+//	}
 
 	public String getDescription() {
 		return description;
